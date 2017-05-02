@@ -1,0 +1,7 @@
+Order allow,deny
+Deny from all
+
+<FilesMatch "\.(css|woff|ttf|woff2)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
